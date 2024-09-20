@@ -5,8 +5,8 @@ import toast from "react-hot-toast";
 import { useState } from "react";
 const Login = () => {
   const [formData, setFormData] = useState({
-    email: " ",
-    password: " ",
+    email: "",
+    password: "",
   });
 
   const { email, password } = formData;
